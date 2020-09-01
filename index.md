@@ -1,39 +1,24 @@
 ## Welcome to Paul's Junk and Hauling
 
-You can use the [editor on GitHub](https://github.com/paulstevens95/paulstevens95.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Have you called every other junk company in San Diego, finally found someone to come out, but then once they arrived, they had an entire list of things they will not take? Well we want to step in and take what they refuse to haul away. We will take paint cans (full or empty), used car tires, any E-Waste, lithium batteries, fluorescent lightbulbs, used motor oil, or anything else the other guys won't even look at.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+***
 
-We will haul whatever the other junk guys won't take. Paint, E-Waste, Tires, Used Motor Oil, etc., we haul it all.
+### Pricing
 
-### Markdown
+| Item                  | Price Per Unit    | Max Quantity  |
+|:----------------------|:------------------|:--------------|
+| Latex Paint           | $10/gallon        | 50 gallons    |
+| Oil-Based Paint       | $15/gallon        | 15 gallons    |
+| Used Motor Oil        | $1/quart          | 50 quarts     |
+| E-Waste               | $10/item          | No Maximum    |
+| Tires                 | $10/tire          | No Maximum    |
+| Scrap Metal           | $1/pound          | 500 Pounds    |
+| Appliances            | $80/appliance     | 4 Appliances  |
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Example Pricing
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/paulstevens95/paulstevens95.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
