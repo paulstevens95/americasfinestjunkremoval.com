@@ -4,6 +4,8 @@ Have you called every other junk company in San Diego, finally found someone to 
 
 ***
 
+Our minimum fee to come to your house is $50. We recommend gathering up extra junk around the house for us to haul if you have not met the minimum.
+
 ### Pricing
 
 Item | Price Per Unit | Max Quantity
@@ -16,13 +18,14 @@ Tires | $10/tire | No Maximum
 Scrap Metal | $1/pound | 500 Pounds
 Appliances | $80/appliance | 4 Appliances
 Light Bulbs | $1 per bulb | 50 Bulbs
+Other Junk | Call/Text for Pricing | No Maximum
 
 ### Price Example 1
 
 * 15 gallons of latex paint
-* 10 quarts of used motor oil
+* 12 quarts of used motor oil
 * 8 fluorescent light bulbs
-* **Total: $93**
+* **Total: $95**
 
 ### Price Example 2
 
@@ -30,3 +33,11 @@ Light Bulbs | $1 per bulb | 50 Bulbs
 * 4 used car tires
 * 1 Refrigerator
 * **Total: $170**
+
+### Price Example 3
+
+* 1 Desktop computer with monitor
+* Box of Lithium batteries
+* 5 gallons of latex based paint
+* Small pile of other household junk
+* **Total: $80**
