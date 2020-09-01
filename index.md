@@ -13,31 +13,27 @@ Item | Price Per Unit | Max Quantity
 Latex Paint | $5/gallon | 50 gallons
 Oil-Based Paint | $10/gallon | 15 gallons
 Used Motor Oil | $1/quart | 50 quarts
-E-Waste | $10/item | No Maximum
+Recyclable E-Waste | $10/item | No Maximum
+Hazardous E-Waste | Call/Text for Pricing | No Maximum
 Tires | $10/tire | No Maximum
 Scrap Metal | $1/pound | 500 Pounds
 Appliances | $80/appliance | 4 Appliances
 Light Bulbs | $1 per bulb | 50 Bulbs
 Other Junk | Call/Text for Pricing | No Maximum
 
-### Price Example 1
+***
 
-* 15 gallons of latex paint
-* 12 quarts of used motor oil
-* 8 fluorescent light bulbs
-* **Total: $95**
+E-Waste can come in many forms. Here is a helpful table to know if your E-Waste will be cheap to have hauled away
 
-### Price Example 2
-
-* 5 gallons of oil-based paint
-* 4 used car tires
-* 1 Refrigerator
-* **Total: $170**
-
-### Price Example 3
-
-* 1 Desktop computer with monitor
-* Box of Lithium batteries
-* 5 gallons of latex based paint
-* Small pile of other household junk
-* **Total: $80**
+Recyclable E-Waste | Hazardous E-Waste
+--------------|------------------
+Household Appliances | Lithium Batteries
+AV Equipment | Fluorescent Light Bulbs
+Computers | Speakers
+Monitors | Cathode Ray Tube TVs
+Copy Machines | 
+Fax Machines | 
+Printers | 
+Home Entertainment | 
+Flat screen TVs | 
+VCR/DVD Players | 
