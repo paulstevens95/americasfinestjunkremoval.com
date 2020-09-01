@@ -6,7 +6,7 @@ Have you called every other junk company in San Diego, finally found someone to 
 
 Our minimum fee to come to your house is $50. We recommend gathering up extra junk around the house for us to haul if you have not met the minimum.
 
-### Pricing - See Pricing Examples
+### Pricing - [See Pricing Examples](./pricing-example.html)
 
 Item | Price Per Unit | Max Quantity
 -----|----------------|--------------
