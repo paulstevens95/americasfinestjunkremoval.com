@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to Paul's Junk and Hauling
 
 You can use the [editor on GitHub](https://github.com/paulstevens95/paulstevens95.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+We will haul whatever the other junk guys won't take. Paint, E-Waste, Tires, Used Motor Oil, etc., we haul it all.
 
 ### Markdown
 
