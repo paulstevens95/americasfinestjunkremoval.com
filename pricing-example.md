@@ -1,3 +1,9 @@
+---
+layout: default
+title: Pricing Examples
+description: Examples of loads we have hauled for other customers, and what we charged them
+---
+
 ### Price Example 1
 
 * 15 gallons of latex paint
