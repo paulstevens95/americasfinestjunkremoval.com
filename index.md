@@ -1,4 +1,4 @@
-## Welcome to Paul's Junk and Hauling
+## Welcome to America's Finest Junk Removal
 
 Have you called every other junk company in San Diego, finally found someone to come out, but then once they arrived, they had an entire list of things they will not take? Well we want to step in and take what they refuse to haul away. We will take paint cans (full or empty), used car tires, any E-Waste, lithium batteries, fluorescent lightbulbs, used motor oil, or anything else the other guys won't even look at.
 
