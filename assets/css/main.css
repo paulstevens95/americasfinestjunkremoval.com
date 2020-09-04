@@ -2336,7 +2336,6 @@
 			max-height: 7em;
 			margin-top: 1em;
 			left: 1.25em;
-			position: fixed;
 		}
 
 		.image.rounded {
@@ -2930,7 +2929,6 @@
 			.mainlogo {
 				max-width: 90%;
 				margin-top: 3em;
-				position: absolute;
 			}
 		}
 
