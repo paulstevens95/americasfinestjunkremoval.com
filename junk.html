@@ -20,7 +20,10 @@
       type="text/javascript"
     ></script>
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -39,49 +42,17 @@
         theme: {
           extend: {
             colors: {
-              primary: '#f32853',
-              secondary: '#323037',
-            }
-          }
-        }
-      }
+              primary: "#f32853",
+              secondary: "#323037",
+            },
+          },
+        },
+      };
     </script>
   </head>
   <body class="bg-white font-sans">
-    <!-- Header -->
-    <header class="bg-white shadow-md fixed w-full top-0 z-50">
-      <div class="container mx-auto px-4 py-2 flex items-center justify-between">
-        <a href="index.html" class="flex-shrink-0">
-          <img
-            class="h-16 md:h-20"
-            src="images/PNG/America’s Finest Junk Removal-03.png"
-            alt="America's Finest Junk Removal"
-          />
-        </a>
-        <!-- Desktop Navigation -->
-        <nav class="hidden md:block">
-          <ul class="flex space-x-8">
-            <li><a href="index.html" class="text-gray-800 hover:text-primary font-medium">Home</a></li>
-            <li><a href="whatwetake.html" class="text-gray-800 hover:text-primary font-medium">What We Take</a></li>
-            <li><a href="pricing.html" class="text-gray-800 hover:text-primary font-medium">Pricing</a></li>
-            <li><a href="bookonline.html" class="text-gray-800 hover:text-primary font-medium">Book Online</a></li>
-          </ul>
-        </nav>
-        <!-- Mobile menu button -->
-        <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
-          <i class="fas fa-bars text-2xl"></i>
-        </button>
-      </div>
-      <!-- Mobile Navigation -->
-      <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
-        <ul class="px-4 py-2">
-          <li class="py-2"><a href="index.html" class="block text-gray-800 hover:text-primary">Home</a></li>
-          <li class="py-2"><a href="whatwetake.html" class="block text-gray-800 hover:text-primary">What We Take</a></li>
-          <li class="py-2"><a href="pricing.html" class="block text-gray-800 hover:text-primary">Pricing</a></li>
-          <li class="py-2"><a href="bookonline.html" class="block text-gray-800 hover:text-primary">Book Online</a></li>
-        </ul>
-      </div>
-    </header>
+    <!-- Header will be loaded here -->
+    <div id="header-container"></div>
 
     <!-- Banner -->
     <section
@@ -102,7 +73,8 @@
               href="#"
               class="px-6 py-3 bg-primary text-white font-bold text-lg rounded hover:bg-opacity-90 transition duration-300"
               onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
-            >Book Online</a>
+              >Book Online</a
+            >
           </div>
         </div>
       </div>
@@ -112,21 +84,26 @@
     <main class="py-12 md:py-16">
       <div class="container mx-auto px-4">
         <section class="max-w-4xl mx-auto">
-          <h4 class="text-2xl font-bold mb-6">Comprehensive Junk Removal Services</h4>
+          <h4 class="text-2xl font-bold mb-6">
+            Comprehensive Junk Removal Services
+          </h4>
           <p class="text-lg text-gray-700 mb-8">
-            America's Finest Junk Removal provides full-service junk removal for homes and businesses 
-            throughout San Diego. We handle all types of unwanted items, from small household junk to 
-            large bulky materials.
+            America's Finest Junk Removal provides full-service junk removal for
+            homes and businesses throughout San Diego. We handle all types of
+            unwanted items, from small household junk to large bulky materials.
           </p>
-          
+
           <p class="text-lg text-gray-700 mb-8">
-            Our professional team makes junk removal simple and stress-free. We do all the heavy lifting, 
-            loading, and hauling so you don't have to worry about a thing. Just point to what needs to go, 
-            and we'll take care of the rest.
+            Our professional team makes junk removal simple and stress-free. We
+            do all the heavy lifting, loading, and hauling so you don't have to
+            worry about a thing. Just point to what needs to go, and we'll take
+            care of the rest.
           </p>
-          
+
           <div class="bg-white rounded-lg shadow-md p-4 mb-8">
-            <h5 class="text-xl font-bold mb-4">Our junk removal services include:</h5>
+            <h5 class="text-xl font-bold mb-4">
+              Our junk removal services include:
+            </h5>
             <ul class="list-disc pl-6 mb-4 space-y-2">
               <li>Residential junk removal</li>
               <li>Commercial junk removal</li>
@@ -140,14 +117,15 @@
               <li>Foreclosure cleanouts</li>
             </ul>
           </div>
-          
+
           <p class="text-lg text-gray-700 mb-10">
-            We're committed to environmentally responsible junk disposal. We donate reusable items to 
-            local charities and recycle materials whenever possible to minimize landfill waste.
+            We're committed to environmentally responsible junk disposal. We
+            donate reusable items to local charities and recycle materials
+            whenever possible to minimize landfill waste.
           </p>
-          
+
           <div class="bg-white rounded-lg shadow-md p-4">
-            <div 
+            <div
               class="calendly-inline-widget"
               data-url="https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_gdpr_banner=1"
               style="min-width: 320px; height: 630px"
@@ -160,16 +138,40 @@
     <!-- Footer -->
     <footer class="bg-gray-100 py-8">
       <div class="container mx-auto px-4 text-center">
-        <p class="text-gray-600">© 2025 America's Finest Junk Removal - San Diego, CA</p>
+        <p class="text-gray-600">
+          © 2025 America's Finest Junk Removal - San Diego, CA
+        </p>
       </div>
     </footer>
 
-    <!-- Mobile menu toggle script -->
+    <!-- Load header content -->
     <script>
-      document.getElementById('mobile-menu-button').addEventListener('click', function() {
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenu.classList.toggle('hidden');
-      });
+      // Function to load header
+      function loadHeader() {
+        fetch('header.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('header-container').innerHTML = data;
+            
+            // After header is loaded, we need to reattach event listeners
+            document.getElementById('mobile-menu-button').addEventListener('click', function() {
+              const mobileMenu = document.getElementById('mobile-menu');
+              mobileMenu.classList.toggle('hidden');
+            });
+            
+            // Check for admin hash
+            if (window.location.hash === '#admin') {
+              document.getElementById('admin-link').classList.remove('hidden');
+              document.getElementById('mobile-admin-link').classList.remove('hidden');
+            }
+          })
+          .catch(error => {
+            console.error('Error loading header:', error);
+          });
+      }
+      
+      // Load header when page loads
+      document.addEventListener('DOMContentLoaded', loadHeader);
     </script>
   </body>
 </html>

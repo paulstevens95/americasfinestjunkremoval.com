@@ -1,0 +1,240 @@
+{
+  "index": {
+    "banner": {
+      "title": "Full Service Junk Removal in San Diego, CA",
+      "description": "We can haul away anything on your property or in your house, without you lifting a finger (except to point)"
+    },
+    "callToAction": {
+      "phone": "(619) 631-8336",
+      "paymentMethods": "We accept Cash, Check, Venmo, Paypal, or Credit Card"
+    },
+    "about": {
+      "title": "Have too much junk laying around?",
+      "subtitle": "We can take care of that",
+      "paragraph1": "We are a small family business located in El Cajon, ready to help you with all of your hauling needs. Servicing everyone within a 25 mile radius of El Cajon. We offer 20% discounts for active duty or veteran military! Just call or text for more info.",
+      "paragraph2": "No job is too large or too small. Minimum price is $50 for small single items. Check out our pricing page for examples, and then just book right on this website to schedule your job. Not able to take most hazardous waste."
+    },
+    "pricing": {
+      "title": "Check out what we can haul, and what we charge",
+      "subtitle": "Competitive pricing for San Diego",
+      "option1": {
+        "price": "$150 - 1/4 Trailer"
+      },
+      "option2": {
+        "price": "$300 - Half Trailer"
+      }
+    },
+    "services": {
+      "title": "What we can take for you",
+      "subtitle": "All Household Trash, Furniture, and More!",
+      "service1": {
+        "title": "Couches",
+        "subtitle": "Let us haul away that old ugly couch",
+        "description": "We would love to help you make room for that new couch you just ordered. Let our team come remove any sofa or chair from your house with ease"
+      },
+      "service2": {
+        "title": "E-Waste",
+        "subtitle": "Put your old electronics to good use",
+        "description": "Got old electronics laying around or stuffed in a corner in your garage? We can safely dispose of them, or put them to good use by donating them to charities or other organizations."
+      },
+      "service3": {
+        "title": "Trash",
+        "subtitle": "House and Yard cleanup",
+        "description": "Let us clean our your garage, backyard, or house. We can do full hoard cleanouts, or simply help you clean up the extra garbage that has gathered in your garage or yard."
+      },
+      "service4": {
+        "title": "Beds/Mattresses",
+        "subtitle": "We can dispose of your mattress economically",
+        "description": "Is it time to get a new mattress? Let us come in to remove that old one, and we can even help you get your new bed set up for no additional charge in the same visit. This is the best deal you'll find in San Diego"
+      }
+    },
+    "footer": {
+      "title": "Have any further questions?",
+      "description": "Text or Call us now for a free quote: (619) 631-8336",
+      "copyright": "© 2025 America's Finest Junk Removal - San Diego, CA"
+    }
+  },
+  "whatwetake": {
+    "banner": {
+      "title": "What We Take",
+      "description": "From furniture to appliances, yard waste to e-waste, we take it all!"
+    },
+    "section": {
+      "title": "Materials We Accept",
+      "description": "We're your one-stop solution for junk removal in San Diego. We accept almost all types of waste and unwanted items, helping you clear your space with minimal effort."
+    },
+    "cta": {
+      "text": "Call us at (619) 631-8336 or book online today!"
+    }
+  },
+  "pricing": {
+    "banner": {
+      "title": "Our Pricing",
+      "description": "Affordable junk removal services in San Diego County"
+    },
+    "options": {
+      "option1": {
+        "title": "1/4 Trailer Load",
+        "price": "$150",
+        "description": "Perfect for small cleanouts and single items"
+      },
+      "option2": {
+        "title": "1/2 Trailer Load",
+        "price": "$300",
+        "description": "Ideal for medium-sized jobs and partial room cleanouts"
+      },
+      "option3": {
+        "title": "Full Trailer Load",
+        "price": "$550",
+        "description": "Best value for large cleanouts and multiple rooms"
+      }
+    }
+  },
+  "bookonline": {
+    "banner": {
+      "title": "Book Online",
+      "description": "Quick Responses and immediate quotes (619) 631-8336"
+    },
+    "section": {
+      "title": "Text or call us to discuss what you need to have hauled away",
+      "phone": "(619) 631-8336"
+    }
+  },
+  "couches": {
+    "banner": {
+      "title": "Couch Removal Services",
+      "description": "Let us haul away that old couch with ease"
+    },
+    "content": {
+      "intro": "Need to get rid of an old couch or sofa? We make it simple and affordable.",
+      "main": "We'll carefully remove and haul away your old couches, sofas, loveseats, sectionals, and any other upholstered furniture, regardless of size or condition. Our team has the experience and equipment to handle even the most challenging removals, including oversized items and difficult access situations.",
+      "additional": "We recycle and donate suitable pieces when possible to minimize environmental impact."
+    }
+  },
+  "mattress": {
+    "banner": {
+      "title": "Mattress & Box Spring Removal",
+      "description": "Professional and eco-friendly mattress disposal services"
+    },
+    "content": {
+      "intro": "Getting rid of your old mattress doesn't have to be a hassle.",
+      "main": "We offer complete mattress and box spring removal services for all types and sizes of bedding items. From twin to California king, memory foam to traditional innerspring, we'll take it all. We can also remove multiple mattresses, bed frames, headboards, and complete bedroom sets in a single trip.",
+      "additional": "In San Diego County, we properly dispose of mattresses following all local regulations, and recycle components when possible."
+    }
+  },
+  "appliances": {
+    "banner": {
+      "title": "Appliance Removal & Disposal",
+      "description": "Fast and eco-friendly appliance removal services"
+    },
+    "content": {
+      "intro": "Need to get rid of old or broken appliances? We can help!",
+      "main": "Our team can safely remove and haul away all types of home appliances, including refrigerators, freezers, washing machines, dryers, dishwashers, stoves, ovens, microwaves, and more. We have the right equipment and experience to handle bulky and heavy items without damaging your home.",
+      "additional": "We ensure all appliances are disposed of properly, with recyclable components sent to appropriate facilities."
+    }
+  },
+  "ewaste": {
+    "banner": {
+      "title": "Electronic Waste Disposal",
+      "description": "Responsible removal and recycling of electronics"
+    },
+    "content": {
+      "intro": "Properly disposing of electronic waste is crucial for environmental protection.",
+      "main": "We collect and responsibly recycle all types of electronic waste, including computers, monitors, TVs, printers, phones, cameras, and other electronic devices. Our team ensures that hazardous components are handled properly and valuable materials are recovered for reuse.",
+      "additional": "By choosing our e-waste removal service, you're helping to keep toxic materials out of landfills and conserve natural resources."
+    }
+  },
+  "construction": {
+    "banner": {
+      "title": "Construction Debris Removal",
+      "description": "Clean up your job site with our professional debris removal"
+    },
+    "content": {
+      "intro": "Construction and renovation projects create a lot of waste that can be difficult to dispose of properly.",
+      "main": "We provide efficient removal of construction debris including drywall, lumber, concrete, tiles, bricks, cabinets, fixtures, and more. Whether you're a contractor finishing a big project or a homeowner who just completed a DIY renovation, we'll clear away the mess so you can enjoy your improved space.",
+      "additional": "We sort materials when possible to maximize recycling and minimize landfill waste."
+    }
+  },
+  "furniture": {
+    "banner": {
+      "title": "Furniture Removal and Disposal",
+      "description": "Need to get rid of old furniture? We can help for a great price!"
+    },
+    "content": {
+      "intro": "Getting rid of unwanted furniture doesn't have to be a struggle.",
+      "main": "We remove all types of furniture including sofas, recliners, tables, chairs, entertainment centers, bookshelves, desks, dressers, and more. Our team will do all the heavy lifting and carefully navigate through your home without causing any damage to walls, floors, or doorways.",
+      "additional": "We donate usable furniture to local charities whenever possible, giving your items a second life with someone who needs them."
+    }
+  },
+  "hot-tub": {
+    "banner": {
+      "title": "Hot Tub Removal",
+      "description": "Professional hot tub and spa removal services"
+    },
+    "content": {
+      "intro": "Removing a hot tub or spa is a complex job that requires specialized equipment and expertise.",
+      "main": "Our team has the tools and experience to safely disconnect, dismantle, and remove hot tubs and spas of all sizes. We handle the entire process, from draining and disconnecting power to breaking down the components and hauling everything away, leaving your space clean and ready for its next use.",
+      "additional": "We recycle as many components as possible, including pumps, heaters, and the acrylic shell."
+    }
+  },
+  "refrigerators": {
+    "banner": {
+      "title": "Refrigerator & Freezer Removal",
+      "description": "Environmentally responsible refrigerator disposal"
+    },
+    "content": {
+      "intro": "Refrigerators and freezers require special handling due to their refrigerants and materials.",
+      "main": "We specialize in the safe removal and proper disposal of refrigerators and freezers of all sizes. Our team is trained to handle the refrigerants and other hazardous components according to EPA guidelines, ensuring that these appliances don't harm the environment when disposed of.",
+      "additional": "Most refrigerators contain valuable metals and components that can be recycled, and we ensure these materials are recovered whenever possible."
+    }
+  },
+  "yard": {
+    "banner": {
+      "title": "Yard Waste Removal",
+      "description": "We'll help clear your outdoor spaces of yard debris and green waste"
+    },
+    "content": {
+      "intro": "Yard cleanup can be time-consuming and physically demanding.",
+      "main": "Let us handle your yard waste removal needs, including tree branches, leaves, grass clippings, shrub trimmings, soil, rocks, and other landscaping debris. We'll leave your yard clean and ready for new landscaping projects or simply for you to enjoy.",
+      "additional": "We compost suitable materials where possible, ensuring your green waste benefits the environment."
+    }
+  },
+  "junk": {
+    "banner": {
+      "title": "Junk Removal Services",
+      "description": "We remove all types of junk to help you reclaim your space"
+    },
+    "content": {
+      "intro": "Accumulated junk can take over your home or business, creating stress and limiting usable space.",
+      "main": "Our comprehensive junk removal service tackles everything from household clutter to office cleanouts. We handle the sorting, heavy lifting, and disposal, saving you time and effort. Our team works efficiently and respectfully, whether you need a few items removed or require a complete property cleanout.",
+      "additional": "We emphasize responsible disposal, with items being donated, recycled, or properly disposed of according to their condition and material."
+    }
+  },
+  "trash": {
+    "banner": {
+      "title": "Trash Removal Services",
+      "description": "Professional removal for trash that exceeds regular collection"
+    },
+    "content": {
+      "intro": "When you have more trash than your regular collection service can handle, we're here to help.",
+      "main": "We remove all types of household and commercial trash that won't fit in your regular bins or that requires immediate disposal. From post-party cleanup to moving cleanouts, we'll haul away bags, boxes, and loose items quickly and efficiently.",
+      "additional": "We sort through items when possible to ensure recyclables don't end up in landfills unnecessarily."
+    }
+  },
+  "garbage": {
+    "banner": {
+      "title": "Garbage & Refuse Removal",
+      "description": "Professional removal of waste that exceeds your regular garbage collection"
+    },
+    "content": {
+      "intro": "Sometimes your regular garbage service isn't enough for larger cleanups or special situations.",
+      "main": "Our garbage removal service handles the overflow from major cleanups, renovations, events, or move-outs. We take care of all the hauling and ensure everything is disposed of properly, saving you multiple trips to the dump or weeks of gradually disposing through your regular service.",
+      "additional": "We work efficiently to minimize disruption to your home or business operations."
+    }
+  },
+  "global": {
+    "footer": {
+      "copyright": "© 2025 America's Finest Junk Removal - San Diego, CA"
+    }
+  }
+}
