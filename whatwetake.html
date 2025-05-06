@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<html lang="en">
   <head>
-    <title>What We Take</title>
+    <title>What We Take - America's Finest Junk Removal</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://assets.calendly.com/assets/external/widget.css"
       rel="stylesheet"
@@ -24,92 +19,212 @@
       src="https://assets.calendly.com/assets/external/widget.js"
       type="text/javascript"
     ></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-177311300-1"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-177311300-1");
     </script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#f32853',
+              secondary: '#323037',
+            }
+          }
+        }
+      }
+    </script>
   </head>
-  <body class="landing">
+  <body class="bg-white font-sans">
     <!-- Header -->
-    <header id="header" class="alt">
-      <a href="index.html"
-        ><img
-          class="mainlogo"
-          src="images/PNG/America’s Finest Junk Removal-03.png"
-      /></a>
-      <nav id="nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="whatwetake.html">What We Take</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="bookonline.html">Book Online</a></li>
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+      <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+        <a href="index.html" class="flex-shrink-0">
+          <img
+            class="h-16 md:h-20"
+            src="images/PNG/America’s Finest Junk Removal-03.png"
+            alt="America's Finest Junk Removal"
+          />
+        </a>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+          <ul class="flex space-x-8">
+            <li><a href="index.html" class="text-gray-800 hover:text-primary font-medium">Home</a></li>
+            <li><a href="whatwetake.html" class="text-gray-800 hover:text-primary font-medium font-bold text-primary">What We Take</a></li>
+            <li><a href="pricing.html" class="text-gray-800 hover:text-primary font-medium">Pricing</a></li>
+            <li><a href="bookonline.html" class="text-gray-800 hover:text-primary font-medium">Book Online</a></li>
+          </ul>
+        </nav>
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+      <!-- Mobile Navigation -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+        <ul class="px-4 py-2">
+          <li class="py-2"><a href="index.html" class="block text-gray-800 hover:text-primary">Home</a></li>
+          <li class="py-2"><a href="whatwetake.html" class="block text-primary font-bold">What We Take</a></li>
+          <li class="py-2"><a href="pricing.html" class="block text-gray-800 hover:text-primary">Pricing</a></li>
+          <li class="py-2"><a href="bookonline.html" class="block text-gray-800 hover:text-primary">Book Online</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
 
-    <a href="#menu" class="navPanelToggle"
-      ><img
-        class="mainlogo"
-        src="images/PNG/America’s Finest Junk Removal-03.png"
-    /></a>
-
-    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-
     <!-- Banner -->
-    <section id="banner">
-      <h2>What We Take</h2>
-      <p>
-        We can haul away almost anything you have
-        <br />No job is too large or too small
-      </p>
-      <ul class="actions">
-        <li>
-          <a
-            href=""
-            class="button special big"
-            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
-            >Book Online</a
-          >
-        </li>
-      </ul>
-    </section>
-    <!-- Main -->
-    <section id="main" class="wrapper">
-      <div class="container">
-        <section>
-          <h3>Full Service Junk Removal servicing all of San Diego</h3>
-          <ul>
-            <li>✔️ <a href="ewaste.html">Electronics (E-waste)</a></li>
-            <li>✔️ Appliances</li>
-            <li>✔️ Carpeting & Rugs</li>
-            <li>✔️ Construction Waste</li>
-            <li>✔️ Furniture</li>
-            <li>✔️ <a href="mattress.html">Mattresses & Box Springs</a></li>
-            <li>✔️ Refrigerators & Freezers</li>
-            <li>✔️ Scrap Metals</li>
-            <li>✔️ <a href="ewaste.html">Televisions</a></li>
-            <li>✔️ Household Trash</li>
-            <li>✔️ Yard Waste</li>
-            <li>✔️ Garbage & Refuse</li>
-            <li>✔️ General Rubbish</li>
-            <li>✔️ Exercise Equipment</li>
-            <li>✔️ Junk</li>
-            <li>✔️ BBQ & Grills</li>
-            <li>✔️ Playsets & Trampolines</li>
-          </ul>
-        </section>
+    <section
+      class="pt-24 md:pt-32 bg-cover bg-center relative"
+      style="background-image: url('images/trailer.jpg')"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div class="relative text-center py-20 md:py-32">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">
+            What We Take
+          </h2>
+          <p class="text-xl md:text-2xl text-white mb-8">
+            We can haul away almost anything you have<br />No job is too large or too small
+          </p>
+          <div class="flex justify-center">
+            <a
+              href="#"
+              class="px-6 py-3 bg-primary text-white font-bold text-lg rounded hover:bg-opacity-90 transition duration-300"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
+            >Book Online</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- Main Content -->
+    <main class="py-12 md:py-16">
+      <div class="container mx-auto px-4">
+        <section class="max-w-4xl mx-auto">
+          <h3 class="text-2xl font-bold mb-6 text-center">Full Service Junk Removal servicing all of San Diego</h3>
+          
+          <div class="grid md:grid-cols-2 gap-6">
+            <ul class="space-y-3 text-lg">
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="trash.html" class="text-primary hover:underline">Household Trash</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="appliances.html" class="text-primary hover:underline">Appliances</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="carpeting.html" class="text-primary hover:underline">Carpeting & Rugs</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="construction.html" class="text-primary hover:underline">Construction Waste</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="furniture.html" class="text-primary hover:underline">Furniture</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="mattress.html" class="text-primary hover:underline">Mattresses & Box Springs</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="refrigerators.html" class="text-primary hover:underline">Refrigerators & Freezers</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="hot-tub.html" class="text-primary hover:underline">Hot Tubs</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="ewaste.html" class="text-primary hover:underline">Electronics</a>
+              </li>
+            </ul>
+            
+            <ul class="space-y-3 text-lg">
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="scrap.html" class="text-primary hover:underline">Scrap Metals</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="ewaste.html" class="text-primary hover:underline">Televisions</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="yard.html" class="text-primary hover:underline">Yard Waste</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="garbage.html" class="text-primary hover:underline">Garbage & Refuse</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="rubbish.html" class="text-primary hover:underline">General Rubbish</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="exercise.html" class="text-primary hover:underline">Exercise Equipment</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="junk.html" class="text-primary hover:underline">Junk</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="bbq.html" class="text-primary hover:underline">BBQ & Grills</a>
+              </li>
+              <li class="flex items-start">
+                <span class="text-green-600 mr-2">✔️</span>
+                <a href="playsets.html" class="text-primary hover:underline">Playsets & Trampolines</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Call to Action -->
+    <section class="bg-secondary py-16">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Ready to get rid of your junk?</h2>
+        <p class="text-xl text-white mb-8">
+          Call us at (619) 631-8336 or book online today!
+        </p>
+        <a
+          href="#"
+          class="inline-block px-8 py-4 bg-primary text-white font-bold text-lg rounded hover:bg-opacity-90 transition duration-300"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
+        >Book Online</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-gray-600">© 2025 America's Finest Junk Removal - San Diego, CA</p>
+      </div>
+    </footer>
+
+    <!-- Mobile menu toggle script -->
+    <script>
+      document.getElementById('mobile-menu-button').addEventListener('click', function() {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
   </body>
 </html>

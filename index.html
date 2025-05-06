@@ -1,15 +1,10 @@
 <!DOCTYPE html>
-<!--
-	Spatial by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<html lang="en">
   <head>
     <title>America's Finest Junk Removal</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://assets.calendly.com/assets/external/widget.css"
       rel="stylesheet"
@@ -24,6 +19,8 @@
       src="https://assets.calendly.com/assets/external/widget.js"
       type="text/javascript"
     ></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -35,82 +32,109 @@
         dataLayer.push(arguments);
       }
       gtag("js", new Date());
-
       gtag("config", "UA-177311300-1");
     </script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#f32853',
+              secondary: '#323037',
+            }
+          }
+        }
+      }
+    </script>
   </head>
-  <body class="landing">
+  <body class="bg-white font-sans">
     <!-- Header -->
-    <header id="header" class="alt">
-      <a href="index.html"
-        ><img
-          class="mainlogo"
-          src="images/PNG/America’s Finest Junk Removal-03.png"
-      /></a>
-      <nav id="nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="whatwetake.html">What We Take</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="bookonline.html">Book Online</a></li>
+    <header class="bg-white shadow-md fixed w-full top-0 z-50">
+      <div class="container mx-auto px-4 py-2 flex items-center justify-between">
+        <a href="index.html" class="flex-shrink-0">
+          <img
+            class="h-16 md:h-20"
+            src="images/PNG/America’s Finest Junk Removal-03.png"
+            alt="America's Finest Junk Removal"
+          />
+        </a>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+          <ul class="flex space-x-8">
+            <li><a href="index.html" class="text-gray-800 hover:text-primary font-medium">Home</a></li>
+            <li><a href="whatwetake.html" class="text-gray-800 hover:text-primary font-medium">What We Take</a></li>
+            <li><a href="pricing.html" class="text-gray-800 hover:text-primary font-medium">Pricing</a></li>
+            <li><a href="bookonline.html" class="text-gray-800 hover:text-primary font-medium">Book Online</a></li>
+          </ul>
+        </nav>
+        <!-- Mobile menu button -->
+        <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+          <i class="fas fa-bars text-2xl"></i>
+        </button>
+      </div>
+      <!-- Mobile Navigation -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+        <ul class="px-4 py-2">
+          <li class="py-2"><a href="index.html" class="block text-gray-800 hover:text-primary">Home</a></li>
+          <li class="py-2"><a href="whatwetake.html" class="block text-gray-800 hover:text-primary">What We Take</a></li>
+          <li class="py-2"><a href="pricing.html" class="block text-gray-800 hover:text-primary">Pricing</a></li>
+          <li class="py-2"><a href="bookonline.html" class="block text-gray-800 hover:text-primary">Book Online</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
 
-    <a href="#menu" class="navPanelToggle"
-      ><img
-        class="mainlogo"
-        src="images/PNG/America’s Finest Junk Removal-03.png"
-    /></a>
-
-    <a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-
     <!-- Banner -->
-    <section id="banner">
-      <br />
-      <h2>
-        Full Service Junk Removal in San Diego, CA
-      </h2>
-      <p>
-        We can haul away anything on your property or in your house, without you lifting a finger (except to point)
-      </p>
-      <ul class="actions">
-        <li>
-          <a
-            href=""
-            class="button special big"
-            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
-            >Book Online</a
-          >
-        </li>
-        <li><a href="payonline.html" class="button big">Pay Online</a></li>
-      </ul>
+    <section
+      class="pt-24 md:pt-32 bg-cover bg-center relative"
+      style="background-image: url('images/trailer.jpg')"
+    >
+      <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div class="relative text-center py-20 md:py-32">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">
+            Full Service Junk Removal in San Diego, CA
+          </h2>
+          <p class="text-xl md:text-2xl text-white mb-8">
+            We can haul away anything on your property or in your house, without you lifting a finger (except to point)
+          </p>
+          <div class="flex flex-col md:flex-row justify-center gap-4">
+            <a
+              href="#"
+              class="px-6 py-3 bg-primary text-white font-bold text-lg rounded hover:bg-opacity-90 transition duration-300"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
+            >Book Online</a>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="main" class="wrapper">
-      <div class="container">
-        <h2 style="text-align: center">
-          Call or Text us Now for a free quote <br />(619) 631-8336
-        </h2>
-        <p style="text-align: center">
-          We accept Cash, Check, Venmo, Paypal, or Credit Card
-        </p>
-        <!-- One -->
-        <section id="one" class="wrapper style1">
-          <div class="container 75%">
-            <div class="row 200%">
-              <div class="6u 12u$(medium)">
-                <header class="major">
-                  <h2>Have too much junk laying around?</h2>
-                  <p>We can take care of that</p>
-                </header>
+
+    <!-- Main Content -->
+    <main class="py-12 md:py-16">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl font-bold mb-4">
+            Call or Text us Now for a free quote <br />(619) 631-8336
+          </h2>
+          <p class="text-lg text-gray-600">
+            We accept Cash, Check, Venmo, Paypal, or Credit Card
+          </p>
+        </div>
+
+        <!-- About Section -->
+        <section class="bg-gray-50 rounded-lg shadow-md p-8 mb-16">
+          <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-8">
+              <div>
+                <h2 class="text-2xl md:text-3xl font-bold mb-4">Have too much junk laying around?</h2>
+                <p class="text-xl text-gray-600">We can take care of that</p>
               </div>
-              <div class="6u$ 12u$(medium)">
-                <p>
+              <div>
+                <p class="text-gray-700 mb-4">
                   We are a small family business located in El Cajon, ready to help you with all of your hauling needs. 
                   Servicing everyone within a 25 mile radius of El Cajon. 
                   We offer 20% discounts for active duty or veteran military! Just call or text for more info.
                 </p>
-                <p>
+                <p class="text-gray-700">
                   No job is too large or too small. Minimum price is $50 for small single items. 
                   Check out our pricing page for examples, and then just book right on this website to schedule your job. 
                   Not able to take most hazardous waste.
@@ -120,77 +144,76 @@
           </div>
         </section>
 
-        <!-- Two -->
-        <section id="two" class="wrapper style2 special">
-          <div class="container">
-            <header class="major">
-              <h2>Check out what we can haul, and what we charge</h2>
-              <p>Competitive pricing for San Diego</p>
-            </header>
-            <div class="row 150%">
-              <div class="6u 12u$(xsmall)">
-                <div class="image fit captioned">
-                  <img src="images/BeforeAfter150.jpg" alt="" />
-                  <h3>$150 - 1/4 Trailer</h3>
-                </div>
+        <!-- Pricing Preview -->
+        <section class="bg-gray-100 py-12 px-4 rounded-lg mb-16">
+          <div class="max-w-5xl mx-auto">
+            <div class="text-center mb-10">
+              <h2 class="text-3xl font-bold mb-4">Check out what we can haul, and what we charge</h2>
+              <p class="text-xl text-gray-600">Competitive pricing for San Diego</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8">
+              <div class="bg-white rounded-lg overflow-hidden shadow-md">
+              <img src="images/BeforeAfter150.jpg" alt="Quarter Trailer" class="w-full h-auto object-contain" />
+              <div class="p-6 text-center">
+                <h3 class="text-xl font-bold">$150 - 1/4 Trailer</h3>
               </div>
-              <div class="6u$ 12u$(xsmall)">
-                <div class="image fit captioned">
-                  <img src="images/BeforeAfter300.jpg" alt="" />
-                  <h3>$300 - Half Trailer</h3>
-                </div>
+              </div>
+              <div class="bg-white rounded-lg overflow-hidden shadow-md">
+              <img src="images/BeforeAfter300.jpg" alt="Half Trailer" class="w-full h-auto object-contain" />
+              <div class="p-6 text-center">
+                <h3 class="text-xl font-bold">$300 - Half Trailer</h3>
+              </div>
               </div>
             </div>
-            <ul class="actions">
-              <li>
-                <a
-                  href=""
-                  class="button special big"
-                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
-                  >Book Online</a
-                >
-              </li>
-              <li>
-                <a href="pricing.html" class="button big"
-                  >See More Price Examples</a
-                >
-              </li>
-            </ul>
+            <div class="flex flex-col md:flex-row justify-center gap-4 mt-10">
+              <a
+                href="#"
+                class="px-6 py-3 bg-primary text-white font-bold text-lg rounded text-center hover:bg-opacity-90 transition duration-300"
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
+              >Book Online</a>
+              <a 
+                href="pricing.html" 
+                class="px-6 py-3 bg-secondary text-white font-bold text-lg rounded text-center hover:bg-opacity-90 transition duration-300"
+              >See More Price Examples</a>
+            </div>
           </div>
         </section>
 
-        <!-- Three -->
-        <section id="three" class="wrapper style1">
-          <div class="container">
-            <header class="major special">
-              <h2>What we can take for you</h2>
-              <p>All Household Trash, Furniture, and More!</p>
-            </header>
-            <div class="feature-grid">
-              <div class="feature">
-                <div class="image rounded">
-                  <img src="images/couch.jpg" alt="" />
+        <!-- Services -->
+        <section class="mb-16">
+          <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+              <h2 class="text-3xl font-bold mb-4">What we can take for you</h2>
+              <p class="text-xl text-gray-600">All Household Trash, Furniture, and More!</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-x-8 gap-y-16">
+              <!-- Service 1 -->
+              <div class="flex flex-col md:flex-row gap-6">
+                <div class="md:w-1/3">
+                  <div class="rounded-full overflow-hidden aspect-square">
+                    <img src="images/couch.jpg" alt="Couch" class="w-full h-full object-cover" />
+                  </div>
                 </div>
-                <div class="content">
-                  <header>
-                    <h4>Couches</h4>
-                    <p>Let us haul away that old ugly couch</p>
-                  </header>
-                  <p>
+                <div class="md:w-2/3">
+                  <h4 class="text-xl font-bold mb-2">Couches</h4>
+                  <p class="text-gray-600 mb-4">Let us haul away that old ugly couch</p>
+                  <p class="text-gray-700">
                     We would love to help you make room for that new couch you just ordered. Let our team come remove any sofa or chair from your house with ease
                   </p>
                 </div>
               </div>
-              <div class="feature">
-                <div class="image rounded">
-                  <img src="images/ewaste.jpg" alt="" />
+              
+              <!-- Service 2 -->
+              <div class="flex flex-col md:flex-row gap-6">
+                <div class="md:w-1/3">
+                  <div class="rounded-full overflow-hidden aspect-square">
+                    <img src="images/ewaste.jpg" alt="E-Waste" class="w-full h-full object-cover" />
+                  </div>
                 </div>
-                <div class="content">
-                  <header>
-                    <h4>E-Waste</h4>
-                    <p>Put your old electronics to good use</p>
-                  </header>
-                  <p>
+                <div class="md:w-2/3">
+                  <h4 class="text-xl font-bold mb-2">E-Waste</h4>
+                  <p class="text-gray-600 mb-4">Put your old electronics to good use</p>
+                  <p class="text-gray-700">
                     Got old electronics laying around or stuffed in a corner in
                     your garrage? We can safely dispose of them, or put them to
                     good use by donating them to charities or other
@@ -198,32 +221,34 @@
                   </p>
                 </div>
               </div>
-              <div class="feature">
-                <div class="image rounded">
-                  <img src="images/trash.jpg" alt="" />
+              
+              <!-- Service 3 -->
+              <div class="flex flex-col md:flex-row gap-6">
+                <div class="md:w-1/3">
+                  <div class="rounded-full overflow-hidden aspect-square">
+                    <img src="images/trash.jpg" alt="Trash" class="w-full h-full object-cover" />
+                  </div>
                 </div>
-                <div class="content">
-                  <header>
-                    <h4>Trash</h4>
-                    <p>House and Yard cleanup</p>
-                  </header>
-                  <p>
+                <div class="md:w-2/3">
+                  <h4 class="text-xl font-bold mb-2">Trash</h4>
+                  <p class="text-gray-600 mb-4">House and Yard cleanup</p>
+                  <p class="text-gray-700">
                     Let us clean our your garage, backyard, or house. We can do full hoard cleanouts, or simply help you clean up the extra garbage that has gathered in your garage or yard.
                   </p>
                 </div>
               </div>
-              <div class="feature">
-                <div class="image rounded">
-                  <img src="images/bed.jpg" alt="" />
+              
+              <!-- Service 4 -->
+              <div class="flex flex-col md:flex-row gap-6">
+                <div class="md:w-1/3">
+                  <div class="rounded-full overflow-hidden aspect-square">
+                    <img src="images/bed.jpg" alt="Mattress" class="w-full h-full object-cover" />
+                  </div>
                 </div>
-                <div class="content">
-                  <header>
-                    <h4>Beds/Mattresses</h4>
-                    <p>
-                      We can dispose of your mattress economically
-                    </p>
-                  </header>
-                  <p>
+                <div class="md:w-2/3">
+                  <h4 class="text-xl font-bold mb-2">Beds/Mattresses</h4>
+                  <p class="text-gray-600 mb-4">We can dispose of your mattress economically</p>
+                  <p class="text-gray-700">
                     Is it time to get a new mattress? Let us come in to remove that old one, and we can even help you get your new bed set up for no additional charge in the same visit. This is the best deal you'll find in San Diego
                   </p>
                 </div>
@@ -232,35 +257,36 @@
           </div>
         </section>
       </div>
-    </section>
+    </main>
 
-    <!-- Four -->
-    <section id="four" class="wrapper style3 special">
-      <div class="container">
-        <header class="major">
-          <h2>Have any further questions?</h2>
-          <br />
-          <p style="color: #ffffff !important">
-            Text or Call us now for a free quote: (619) 631-8336
-          </p>
-        </header>
-        <ul class="actions">
-          <li>
-            <a
-              href=""
-              class="button special big"
-              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
-              >Book Online</a
-            >
-          </li>
-        </ul>
+    <!-- Call to Action -->
+    <section class="bg-secondary py-16">
+      <div class="container mx-auto px-4 text-center">
+        <h2 class="text-3xl font-bold text-white mb-6">Have any further questions?</h2>
+        <p class="text-xl text-white mb-8">
+          Text or Call us now for a free quote: (619) 631-8336
+        </p>
+        <a
+          href="#"
+          class="inline-block px-8 py-4 bg-primary text-white font-bold text-lg rounded hover:bg-opacity-90 transition duration-300"
+          onclick="Calendly.initPopupWidget({url: 'https://calendly.com/americasfinestjunkremoval?hide_landing_page_details=1&hide_event_type_details=1&primary_color=ff0004'});return false;"
+        >Book Online</a>
       </div>
     </section>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-8">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-gray-600">© 2025 America's Finest Junk Removal - San Diego, CA</p>
+      </div>
+    </footer>
+
+    <!-- Mobile menu toggle script -->
+    <script>
+      document.getElementById('mobile-menu-button').addEventListener('click', function() {
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenu.classList.toggle('hidden');
+      });
+    </script>
   </body>
 </html>
